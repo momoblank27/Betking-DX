@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DollarX Empire</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>DOLLARX</h1>
+  <p class="subtitle">Build Your Crypto Empire</p>
+
+  <div class="topbar">
+    <div>⚡ <span id="energy"></span></div>
+    <div>💰 <span id="balance"></span></div>
+  </div>
+
+  <img src="dx.png" id="coin" onclick="tap()" />
+
+  <div class="stats">
+    <p id="level"></p>
+    <p id="income"></p>
+    <p id="tap"></p>
+  </div>
+
+  <h3>DX Assets</h3>
+
+  <div id="cards"></div>
+
+  <div class="buttons">
+    <button onclick="upgradeTap()">Upgrade Tap</button>
+    <button onclick="upgradeEnergy()">Upgrade Energy</button>
+  </div>
+
+  <button class="tg" onclick="openTG()">Join DX Community</button>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
